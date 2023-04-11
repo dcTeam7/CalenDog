@@ -1,4 +1,4 @@
-# In Progress
+# Calen Dog
 
 ## Tecnologias usadas
 
@@ -51,7 +51,7 @@ Primeiramente será necessário fazer o download do projeto
 2. Abra o Visual Studio e selecione a pasta do projeto.
 
 3. Para selecionar o projeto, localize-o onde está armazenado e escolha-o. Se o projeto tiver sido baixado em formato ZIP, será necessário extrair os arquivos antes de fazer a seleção.
-
+<!--
 ---
 
 > Implementar descrição do projeto
@@ -67,3 +67,4 @@ Primeiramente será necessário fazer o download do projeto
 ---
 
 > Implementar contribuições
+-->
