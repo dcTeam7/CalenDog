@@ -1,4 +1,4 @@
-# CalendDog
+# CalenDog
 
 <div>
   <h1 align="center">🚧 Projeto em construção 🚧</h1>
