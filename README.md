@@ -1,4 +1,21 @@
-# Calen Dog
+# CalendDog
+
+<div>
+  <h1 align="center">🚧 Projeto em construção 🚧</h1>
+ 
+  **CalenDog é um dos projetos finais para turma 07 do curso de FullStack da Digital College. Nele os alunos irão apresentar seus conhecimentos e aprimorar habilidades para trabalhar, analisar e desenvolver projetos em equipe.**
+  
+  <p>
+    <strong>CalenDog</strong> tem como objetivo desenvolver um formulário para otimizar processos e serviços para petshops.
+Ele será vinculado à APIs de calendários e mensagens instantâneas. Desse modo criar uma melhor relação do petshop 
+com seu cliente. 📆 
+  </p>
+
+![Image](https://user-images.githubusercontent.com/112489062/230792165-150fe0bf-cb3a-4b52-85fd-d48ee38e206f.svg)
+
+</div>
+
+---
 
 ## Tecnologias usadas
 
@@ -51,20 +68,3 @@ Primeiramente será necessário fazer o download do projeto
 2. Abra o Visual Studio e selecione a pasta do projeto.
 
 3. Para selecionar o projeto, localize-o onde está armazenado e escolha-o. Se o projeto tiver sido baixado em formato ZIP, será necessário extrair os arquivos antes de fazer a seleção.
-<!--
----
-
-> Implementar descrição do projeto
-
----
-
-> Implementar rodando o projeto localmente
-
----
-
-> Implementar como fazer deploy
-
----
-
-> Implementar contribuições
--->
