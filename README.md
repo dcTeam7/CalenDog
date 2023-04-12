@@ -5,7 +5,7 @@
   **CalenDog é um dos projetos finais para turma 07 do curso de FullStack da Digital College. Nele os alunos irão apresentar seus conhecimentos e aprimorar habilidades para trabalhar, analisar e desenvolver projetos em equipe.**
   
   <p>
-    <strong>CalenDog</strong> projeto que tem como objetivo desenvolver um formulário para otimizar processos e serviços para petshops.
+    <strong>CalenDog</strong> tem como objetivo desenvolver um formulário para otimizar processos e serviços para petshops.
 Ele será vinculado à APIs de calendários e mensagens instantâneas. Desse modo criar uma melhor relação do petshop 
 com seu cliente. 📆
      
