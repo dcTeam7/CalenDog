@@ -1,9 +1,9 @@
 # CalenDog
 
 - [Sobre](#sobre)
-- [Como baixar o projeto](#como-baixar-o-projeto)
-- [Pré-Requisitos](#pré-requisitos)
 - [Tecnologias usadas](#tecnologias-usadas)
+- [Pré-Requisitos](#pré-requisitos)
+- [Como baixar o projeto](#como-baixar-o-projeto)
 - [Instalação](#instalação)
 - [Uso](#uso)
 - [Contribuição](#contribuição)
