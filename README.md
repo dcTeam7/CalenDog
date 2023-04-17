@@ -4,11 +4,12 @@
 - [Tecnologias usadas](#tecnologias-usadas)
 - [Pré-Requisitos](#pré-requisitos)
 - [Como baixar o projeto](#como-baixar-o-projeto)
-- [Instalação](#instalação)
-- [Uso](#uso)
-- [Contribuição](#contribuição)
+- [Rodando Localmente](#rodando-localmente)
+- [Build](#build)
+- [Deploy](#deploy)
+- [Contribuidores](#contribuidores)
 
-## Sobre
+# Sobre
 
 <div>
   <h1 align="center">🚧 Projeto em construção 🚧</h1>
@@ -27,7 +28,7 @@ com seu cliente. 📆
 
 ---
 
-## Tecnologias usadas
+# Tecnologias usadas
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/25181517/192108891-d86b6220-e232-423a-bf5f-90903e6887c3.png" height="30em"/>
@@ -41,7 +42,7 @@ com seu cliente. 📆
 
 ---
 
-## Pré-Requisitos
+# Pré-Requisitos
 
 ### Para reproduzir a aplicação, existem alguns softwares que deverão estar instalados em seu computador
 
@@ -79,11 +80,22 @@ Primeiramente será necessário fazer o download do projeto
 
 3. Para selecionar o projeto, localize-o onde está armazenado e escolha-o. Se o projeto tiver sido baixado em formato ZIP, será necessário extrair os arquivos antes de fazer a seleção.
 
+<hr>
 
+# Rodando localmente
 
+1. Clone o repositório: 
+  Para rodar o projeto localmente, abra o seu ambiente de trabalho local(VsCode, gitpod ou outro editor) e no terminal, no diretório onde você quer armazenar o projeto, digite:  
+  ```suggestion
+  git clone https://github.com/dcTeam7/calendog.git
+  ``` 
+2. Após isso, para rodar o projeto seguiremos o passo a passo para rodar projetos [Vite](https://pt.vitejs.dev/guide/#scaffolding-your-first-vite-project). Digite as seguintes linhas de comando no terminal do repositório:
+```suggestion
+npm install
+npm run dev
+```
 
-
----
+<hr>
 
 # Build
 
@@ -142,3 +154,4 @@ Pronto! Agora, todas as vezes que você fizer push na branch "main", o GithubAct
 
 ---
 
+# Contribuidores
