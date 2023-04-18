@@ -7,6 +7,7 @@
 - [Rodando Localmente](#rodando-localmente)
 - [Build](#build)
 - [Deploy](#deploy)
+- [Figma](#figma)
 - [Contribuidores](#contribuidores)
 
 # Sobre
@@ -151,6 +152,12 @@ Este arquivo de fluxo de trabalho define as etapas necessárias para construir e
 6. Quando o fluxo de trabalho for concluído, verifique se seu site foi implantado. O GithubPages já está pré-configurado para servir a branch gh-pages como site.
 
 Pronto! Agora, todas as vezes que você fizer push na branch "main", o GithubActions irá construir e implantar o seu projeto Vite automaticamente.
+
+---
+
+# Figma
+
+- [Protótipo](https://www.figma.com/file/ZGbXCfSMwOjQ0Fozu9nYk6/PROTÓTIPO-TESTE---TELA-CALENDOG?node-id=0-1&t=j2FWqjM3o2cFq7Sf-0)
 
 ---
 
