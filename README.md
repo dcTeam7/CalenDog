@@ -1,13 +1,13 @@
 # CalenDog
 
 - [Sobre](#sobre)
+- [Figma](#figma)
 - [Tecnologias usadas](#tecnologias-usadas)
 - [Pré-Requisitos](#pré-requisitos)
 - [Como baixar o projeto](#como-baixar-o-projeto)
 - [Rodando Localmente](#rodando-localmente)
 - [Build](#build)
 - [Deploy](#deploy)
-- [Figma](#figma)
 - [Contribuidores](#contribuidores)
 
 # Sobre
@@ -26,6 +26,11 @@ com seu cliente. 📆
 ![Image](https://user-images.githubusercontent.com/112489062/230792165-150fe0bf-cb3a-4b52-85fd-d48ee38e206f.svg)
 
 </div>
+
+---
+# Figma
+
+- [Protótipo](https://www.figma.com/file/ZGbXCfSMwOjQ0Fozu9nYk6/PROTÓTIPO-TESTE---TELA-CALENDOG?node-id=0-1&t=j2FWqjM3o2cFq7Sf-0)
 
 ---
 
@@ -155,11 +160,6 @@ Pronto! Agora, todas as vezes que você fizer push na branch "main", o GithubAct
 
 ---
 
-# Figma
-
-- [Protótipo](https://www.figma.com/file/ZGbXCfSMwOjQ0Fozu9nYk6/PROTÓTIPO-TESTE---TELA-CALENDOG?node-id=0-1&t=j2FWqjM3o2cFq7Sf-0)
-
----
 
 # Contribuidores
 <p align="justify">
