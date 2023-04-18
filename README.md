@@ -1,4 +1,6 @@
-# CalenDog
+<p align="center">
+  <a href="https://docusaurus.io"><img src="https://user-images.githubusercontent.com/55944691/231309283-e9935db0-f345-4bd0-88a4-9629eb213f5c.png" alt="Banner Provisório CalenDog"></a>
+</p>
 
 - [Sobre](#sobre)
 - [Tecnologias usadas](#tecnologias-usadas)
