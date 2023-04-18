@@ -155,3 +155,8 @@ Pronto! Agora, todas as vezes que você fizer push na branch "main", o GithubAct
 ---
 
 # Contribuidores
+<p align="justify">
+Um agradecimento especial a todos que estão empenhados em fazer este projeto ganhar vida:
+</p>
+
+[![Contributors](https://contributors-img.web.app/image?repo=dcteam7/calendog)](https://github.com/dcteam7/calendog/graphs/contributors) 
