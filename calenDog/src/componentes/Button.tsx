@@ -17,9 +17,10 @@ interface ButtonProps {
     onClick?: () => void;
   }
 
+  function dog() {}
+
   export function Button (props:ButtonProps) {
-   function dog() {}
     return (
-    <button onClick={dog}> {props.label}</button>
-  )
+      <button onClick={props.onClick}> {props.label}</button>
+    )
   }
