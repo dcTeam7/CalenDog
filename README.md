@@ -1,14 +1,18 @@
-# CalenDog
+<p align="center">
+  <a href="https://docusaurus.io"><img src="https://user-images.githubusercontent.com/55944691/231309283-e9935db0-f345-4bd0-88a4-9629eb213f5c.png" alt="Banner Provisório CalenDog"></a>
+</p>
 
 - [Sobre](#sobre)
+- [Figma](#figma)
 - [Tecnologias usadas](#tecnologias-usadas)
 - [Pré-Requisitos](#pré-requisitos)
 - [Como baixar o projeto](#como-baixar-o-projeto)
-- [Instalação](#instalação)
-- [Uso](#uso)
-- [Contribuição](#contribuição)
+- [Rodando Localmente](#rodando-localmente)
+- [Build](#build)
+- [Deploy](#deploy)
+- [Contribuidores](#contribuidores)
 
-## Sobre
+# Sobre
 
 <div>
   <h1 align="center">🚧 Projeto em construção 🚧</h1>
@@ -26,8 +30,13 @@ com seu cliente. 📆
 </div>
 
 ---
+# Figma
 
-## Tecnologias usadas
+- [Protótipo](https://www.figma.com/file/ZGbXCfSMwOjQ0Fozu9nYk6/PROTÓTIPO-TESTE---TELA-CALENDOG?node-id=0-1&t=j2FWqjM3o2cFq7Sf-0)
+
+---
+
+# Tecnologias usadas
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/25181517/192108891-d86b6220-e232-423a-bf5f-90903e6887c3.png" height="30em"/>
@@ -41,7 +50,7 @@ com seu cliente. 📆
 
 ---
 
-## Pré-Requisitos
+# Pré-Requisitos
 
 ### Para reproduzir a aplicação, existem alguns softwares que deverão estar instalados em seu computador
 
@@ -78,3 +87,85 @@ Primeiramente será necessário fazer o download do projeto
 2. Abra o Visual Studio e selecione a pasta do projeto.
 
 3. Para selecionar o projeto, localize-o onde está armazenado e escolha-o. Se o projeto tiver sido baixado em formato ZIP, será necessário extrair os arquivos antes de fazer a seleção.
+
+<hr>
+
+# Rodando localmente
+
+1. Clone o repositório: 
+  Para rodar o projeto localmente, abra o seu ambiente de trabalho local(VsCode, gitpod ou outro editor) e no terminal, no diretório onde você quer armazenar o projeto, digite:  
+  ```suggestion
+  git clone https://github.com/dcTeam7/calendog.git
+  ``` 
+2. Após isso, para rodar o projeto seguiremos o passo a passo para rodar projetos [Vite](https://pt.vitejs.dev/guide/#scaffolding-your-first-vite-project). Digite as seguintes linhas de comando no terminal do repositório:
+```suggestion
+npm install
+npm run dev
+```
+
+<hr>
+
+# Build
+
+1. Certifique-se de que todas as dependências do projeto estão instaladas e atualizadas.
+2. Abra o terminal no diretório raiz do projeto.
+3. Execute o seguinte comando para gerar o build do projeto, que criará uma pasta `dist` no diretório raiz do projeto, contendo os arquivos otimizados para produção:
+
+```suggestion
+npm run build
+```
+
+<br>
+
+# Deploy
+
+
+1. Crie um repositório no Github para o projeto, se ainda não tiver criado.
+2. Em seguida, configure o Vite para que ele use caminhos relativos ao vincular arquivos de recursos em HTML, conforme a [documentação](https://pt.vitejs.dev/config/shared-options.html). Isso é feito para que o GitHub Pages saiba onde encontrar os arquivos. Tudo o que você precisa fazer é abrir `vite.config.js` (ou `vite.config.ts` se seu projeto estiver usando TypeScript) e adicionar a seguinte linha dentro de `defineConfig`:
+
+```suggestion
+base: "./"
+```
+
+3. Finalmente, vamos configurar o GitHub Actions. Primeiro, dentro do repositório crie uma pasta `.github/workflows`, e dentro dela crie um arquivo chamado `build.yml`. Nele, adicione o seguinte código:
+
+```suggestion
+name: Build and Deploy
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Install Dependencies
+        run: npm install
+      - name: Build
+        run: npm run build
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@4.1.4
+        with:
+          branch: gh-pages
+          folder: dist
+```
+
+Este arquivo de fluxo de trabalho define as etapas necessárias para construir e implantar seu projeto. Ele dispara quando houver um push na branch main.
+
+4. Adicione e confirme as alterações no repositório.
+5. Volte ao seu repositório no GitHub e navegue até a aba "Actions". Você verá o seu fluxo de trabalho sendo executado.
+6. Quando o fluxo de trabalho for concluído, verifique se seu site foi implantado. O GithubPages já está pré-configurado para servir a branch gh-pages como site.
+
+Pronto! Agora, todas as vezes que você fizer push na branch "main", o GithubActions irá construir e implantar o seu projeto Vite automaticamente.
+
+---
+
+
+# Contribuidores
+<p align="justify">
+Um agradecimento especial a todos que estão empenhados em fazer este projeto ganhar vida:
+</p>
+
+[![Contributors](https://contributors-img.web.app/image?repo=dcteam7/calendog)](https://github.com/dcteam7/calendog/graphs/contributors) 
