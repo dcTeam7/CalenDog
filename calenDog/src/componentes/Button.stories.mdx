@@ -1,0 +1,62 @@
+import { Canvas, Meta, Story, ArgsTable } from '@storybook/addon-docs';
+import { action } from '@storybook/addon-actions';
+import { Button } from './Button';
+
+<Meta t
+itle="MDX/Button" 
+component={Button} 
+tags={['autodocs']} 
+parameters={{layout: 'fullscreen'}}/>
+
+export const Template = (args) => 
+<Button {...args}/>;
+
+# Button component
+
+Botão onde poderá ser implementado suas propriedades para diferentes aplicações e contextos
+
+<ArgsTable of={Button} />
+
+---
+  
+<Canvas>
+  <Story 
+    name="Button large mode"
+    args={{ 
+      label: 'Button',
+      stateBtn: false,
+      type: 'button',
+      size: 'large',
+      onClick: action('clicked-button'),
+    }}>
+    {Template.bind({})}
+   </Story>
+</Canvas>
+
+<Canvas>
+  <Story 
+    name="Button medium mode"
+    args={{ 
+      label: 'Button 2',
+      stateBtn: false,
+      type: 'submit',
+      size: 'medium',
+      onClick: action('clicked-button'),
+    }}>
+    {Template.bind({})}
+   </Story>
+</Canvas>
+
+<Canvas>
+  <Story 
+    name="Button small mode"
+    args={{ 
+      label: 'Button 3',
+      stateBtn: false,
+      type: 'reset',
+      size: 'small',
+      onClick: action('clicked-button'),
+    }}>
+    {Template.bind({})}
+   </Story>
+</Canvas>
